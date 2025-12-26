@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { FlashMessagesService } from 'flash-messages-angular';
+import { FlashMessagesService } from '../../services/flash-message.service';
 import { UserApiService } from 'src/app/services/user-api.service';
 
 declare var Razorpay: any;

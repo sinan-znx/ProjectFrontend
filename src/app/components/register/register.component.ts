@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from 'src/app/services/auth.service';
-import { FlashMessagesService } from 'flash-messages-angular';
+import { FlashMessagesService } from '../../services/flash-message.service';
 import { Router } from '@angular/router';
 import { Match } from 'src/app/validators/match';
 

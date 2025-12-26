@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AdminApiService } from 'src/app/services/admin-api.service';
-import { FlashMessagesService } from 'flash-messages-angular';
+import { FlashMessagesService } from '../../../services/flash-message.service';
 @Component({
   selector: 'app-new-carousel',
   templateUrl: './new-carousel.component.html',

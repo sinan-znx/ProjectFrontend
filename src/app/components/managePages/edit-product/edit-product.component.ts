@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FlashMessagesService } from 'flash-messages-angular';
+import { FlashMessagesService } from '../../../services/flash-message.service';
 import { AdminApiService } from 'src/app/services/admin-api.service';
 
 @Component({
